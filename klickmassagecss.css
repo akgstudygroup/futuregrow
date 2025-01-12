@@ -1,0 +1,107 @@
+/* Hero Section */
+.hero {
+    text-align: center;
+    background: #25D366; /* WhatsApp-like green */
+    color: white;
+    padding: 2rem;
+    border-radius: 8px;
+  }
+  
+  .hero h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  .hero p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  /* Features Section */
+  .features {
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background: #F0F8FF;
+    border-radius: 8px;
+  }
+  
+  .features h2 {
+    text-align: center;
+    color: #001F54;
+    margin-bottom: 1rem;
+  }
+  
+  .features ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .features ul li {
+    margin: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+    font-size: 1.1rem;
+  }
+  
+  .features ul li::before {
+    content: '✔️';
+    position: absolute;
+    left: 0;
+    color: #25D366;
+  }
+  
+  /* Sneak Peek Section */
+  .sneak-peek {
+    text-align: center;
+    margin-top: 3rem;
+  }
+  
+  .sneak-peek-images {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .sneak-peek-images img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Launch Info Section */
+  .launch-info {
+    background: #F4F4F9;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  .launch-info h2 {
+    color: #001F54;
+    margin-bottom: 1rem;
+  }
+  
+  .launch-info p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .launch-info .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    background: #25D366;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background 0.2s ease;
+  }
+  
+  .launch-info .btn:hover {
+    background: #128C7E; /* WhatsApp darker green */
+  }
+  

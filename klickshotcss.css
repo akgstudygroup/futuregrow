@@ -1,0 +1,133 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  header {
+    background: #001F54;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  header nav ul li {
+    margin-left: 1.5rem;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  .hero-section {
+    text-align: center;
+    background: #1E90FF;
+    color: white;
+    padding: 2rem;
+    border-radius: 8px;
+  }
+  
+  .hero-section h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  .hero-section p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  .product-details h2,
+  .launch-info h2,
+  .sneak-peek h2 {
+    color: #001F54;
+    margin-bottom: 1rem;
+  }
+  
+  .product-details p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .features ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .features ul li {
+    margin: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+  }
+  
+  .features ul li::before {
+    content: '✔️';
+    position: absolute;
+    left: 0;
+    color: #1E90FF;
+  }
+  
+  .launch-info {
+    background: #F0F8FF;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  .launch-info .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    background: #1E90FF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background 0.2s ease;
+  }
+  
+  .launch-info .btn:hover {
+    background: #001F54;
+  }
+  
+  .sneak-peek {
+    margin-top: 3rem;
+  }
+  
+  .sneak-peek-images {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .sneak-peek-images img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
